@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cursos-variados",
+      "handler": "cursos-variados.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursos-variados/count",
+      "handler": "cursos-variados.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursos-variados/:id",
+      "handler": "cursos-variados.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cursos-variados",
+      "handler": "cursos-variados.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cursos-variados/:id",
+      "handler": "cursos-variados.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cursos-variados/:id",
+      "handler": "cursos-variados.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
